@@ -18,7 +18,7 @@ print("\n************************************************************")
 # AF_INIT = IPv4 - AF_INIT6 used for IPv6
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-# 5 second timeout between scans
+# 5 second timeout between scans 
 s.settimeout(5)
 
 # get HOST and PORT
